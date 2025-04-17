@@ -51,6 +51,9 @@ winget install --id Google.Chrome -e
 Write-Host "Installing Adobe Acrobat Reader"
 winget install --id Adobe.Acrobat.Reader.64-bit -e
 
+Write-Host "Installing voidtools.Everything"
+winget install -e --id voidtools.Everything
+
 Write-Host "Downloading VMware Workstation Pro 17.6"
 # Define variables
 $url = "https://archive.org/download/vmware-workstation-full-17.6.1-24319023_20241117/VMware-workstation-full-17.6.1-24319023.exe"
