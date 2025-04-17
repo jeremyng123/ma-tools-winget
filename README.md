@@ -60,6 +60,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass
 
 # Future works:
 - [ ] Output logs/error logs to a log file
+- [ ] Installing of VSCode plugins
 
 # Special Mentions:
 - [Raphire](https://github.com/Raphire) for the Win11 Debloat scripts
