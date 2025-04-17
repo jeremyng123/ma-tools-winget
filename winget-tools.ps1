@@ -15,7 +15,7 @@ if (-not ([Security.Principal.WindowsPrincipal] `
 Write-Host "Running with elevated privileges..."
 
 Write-Host "Installing SystemInformer..."
-winget show WinsiderSS.SystemInformer
+winget install WinsiderSS.SystemInformer
 
 Write-Host "Installing Git..."
 winget install --id Git.Git -e --source winget
