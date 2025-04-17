@@ -52,6 +52,13 @@ I found that the 2 out of 3 phases of the work described in this [forum topic](h
 3. Open the file `vmware.log`
 4. Search for `vmx Monitor Mode:`. The value will read either UML or CPL0.
 
+## Installing Windows 11 Guest OS
+Use Official [Microsoft Windows Media Creation](https://www.microsoft.com/en-us/software-download/windows11) page.
+
+Choose Windows 11 (multi-edition ISO for x64 devices). You will download an ISO file. Use this ISO file to create a new VM in VMware.
+
+On your host OS, execute `.\get-current-windows-product-key.ps1` to get your current product key which you will use when installing the VM.
+
 # Usage
 1. Run this command first in PowerShell admin to execute scripts directly
 ```powershell
