@@ -26,6 +26,8 @@ winget --version
 - ImHex Editor
 - Google.Chrome
 - Adobe Acrobat Reader
+- voidtools.Everything
+- Obsidian
 - VMware Workstation Pro 17.6 (downloads and install from archive.org. Installer will be deleted after installation)
 
 # Misc
