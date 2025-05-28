@@ -70,17 +70,17 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass
 2. Navigate to this repository in your PowerShell
 
 3. Install applications
-```powershell
+```batch
 .\winget-tools.ps1
 ```
 
 4. Remove Hyper-V
-```powershell
+```batch
 .\cpl0-vmware.ps1
 ```
 
 5. Restore old context menu
-```powershell
+```batch
 .\restore-old-context-menu.ps1
 ```
 
